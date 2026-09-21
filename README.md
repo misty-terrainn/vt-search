@@ -38,3 +38,14 @@ Check the help for more options:
 ## Notes
 * VirusTotal only returns results within the last 90 days.
 * Search tends to terminate early if the date range is too large.
+
+## Scripts
+* `scripts/tally_dates.py` — scans the output directory and lists the distinct dates (e.g. `last_submission_date`) covered by the collected results:
+  ```
+  ./scripts/tally_dates.py -d output -a last_submission_date
+  ```
+
+## Roadmap
+* Nicer UI / refactor
+* Download samples
+* Fetch comments when `crowdsourced_yara` is not populated

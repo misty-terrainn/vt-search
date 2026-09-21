@@ -1,6 +1,8 @@
-# Output / logs
-output/
-log/
+# Output / logs (keep folders, ignore contents)
+output/*
+log/*
+!output/.gitkeep
+!log/.gitkeep
 
 # Config (contains API key — never commit)
 config.ini
