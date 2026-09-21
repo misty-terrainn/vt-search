@@ -1,0 +1,11 @@
+# Output / logs
+output/
+log/
+
+# Config (contains API key — never commit)
+config.ini
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
